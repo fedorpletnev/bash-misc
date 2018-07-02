@@ -16,3 +16,15 @@ function mail() {
     fi
 
 }
+
+
+# Unlimited history size
+export HISTFILESIZE=
+export HISTSIZE=
+
+# Show datetime in history
+export HISTTIMEFORMAT="[%F %T] "
+
+# Do not store duplicate history commands
+export HISTCONTROL=erasedups
+
